@@ -1,0 +1,283 @@
+{
+  "document_type": "Judgment",
+  "document_subject": "Setting aside of NCLT and NCLAT orders due to reliance on hallucinated and fake AI-generated judicial precedents, restoration of IBC Section 7 application, and directives regarding the use of Artificial Intelligence in legal proceedings.",
+  "bns_relevance": {
+    "classification": "NONE",
+    "reason": "The matter is a civil appeal arising out of corporate insolvency resolution proceedings under the Insolvency and Bankruptcy Code, 2016, and addresses tribunal reliance on AI-generated fake precedents. It contains no facts or allegations concerning criminal offences under the Bharatiya Nyaya Sanhita."
+  },
+  "present_case": {
+    "case_name": "Pooja Ramesh Singh v. Jammu and Kashmir Bank Ltd. & Anr.",
+    "court": "Supreme Court of India",
+    "case_number": "Civil Appeal No. 11950 of 2025",
+    "parties": [
+      {
+        "name": "Pooja Ramesh Singh",
+        "role": "Appellant",
+        "description": "Suspended director of Essel Infraprojects Ltd. ('EIL'), the corporate debtor and corporate guarantor."
+      },
+      {
+        "name": "Jammu and Kashmir Bank Ltd. & Anr.",
+        "role": "Respondent",
+        "description": "Financial creditor which extended loan facilities to the original borrower and filed the Section 7 application."
+      }
+    ],
+    "facts": [
+      {
+        "fact": "Appellant is a suspended director of Essel Infraprojects Ltd. ('EIL'), which was the corporate debtor and corporate guarantor of original borrower Pan India Utilities Distribution Company Ltd. ('PIUDCL').",
+        "role": "CASE_FACT",
+        "page": 6,
+        "evidence": "it is noted that the appellant is a suspended director of Essel Infraprojects Ltd. (‘EIL’), the corporate debtor and corporate guarantor of the original borrower, namely Pan India Utilities Distribution Company Ltd. (‘PIUDCL’).",
+        "confidence": 0.98
+      },
+      {
+        "fact": "PIUDCL availed loan facilities from Jammu and Kashmir Bank Limited, and a corporate guarantee was executed by EIL to secure the credit facilities.",
+        "role": "CASE_FACT",
+        "page": 6,
+        "evidence": "PIUDCL had availed certain loan facilities from Jammu and Kashmir Bank Limited, Respondent No. 1. To secure these credit facilities, a corporate guarantee was executed by EIL.",
+        "confidence": 0.98
+      },
+      {
+        "fact": "PIUDCL experienced severe financial stress and failed to maintain repayment schedules, resulting in its loan accounts being classified as non-performing assets.",
+        "role": "CASE_FACT",
+        "page": 6,
+        "evidence": "In due course, PIUDCL experienced severe financial stress and failed to maintain its repayment schedules, leading to the classification of its loan accounts as non-performing assets.",
+        "confidence": 0.98
+      }
+    ],
+    "procedural_history": [
+      {
+        "fact": "Respondent No. 1 filed an application under Section 7 of the Insolvency and Bankruptcy Code, 2016 before the National Company Law Tribunal, Mumbai, seeking initiation of CIRP against EIL.",
+        "role": "PROCEDURAL_EVENT",
+        "page": 7,
+        "evidence": "Following continuous defaults, Respondent No. 1 filed an application under Section 7 of the Insolvency and Bankruptcy Code, 2016, before the National Company Law Tribunal, Mumbai, seeking initiation of the corporate insolvency resolution process against the EIL/corporate debtor",
+        "confidence": 0.98
+      },
+      {
+        "fact": "The National Company Law Tribunal passed an order dated 28.08.2024 admitting the Section 7 application, appointing an Interim Resolution Professional, and declaring a moratorium under Section 14 of the IBC.",
+        "role": "PROCEDURAL_EVENT",
+        "page": 7,
+        "evidence": "passed an order dated 28.08.2024 admitting the Section 7 application, appointing an Interim Resolution Professional, and declaring a moratorium under Section 14 of the Insolvency and Bankruptcy Code, 2016.",
+        "confidence": 0.98
+      },
+      {
+        "fact": "The appellant filed Company Appeal (AT) (Insolvency) No. 1808 of 2024 before the National Company Law Appellate Tribunal challenging the NCLT admission order.",
+        "role": "PROCEDURAL_EVENT",
+        "page": 7,
+        "evidence": "Aggrieved by the admission order, the appellant preferred an appeal before the National Company Law Appellate Tribunal in Company Appeal (AT) (Insolvency) No. 1808 of 2024.",
+        "confidence": 0.98
+      },
+      {
+        "fact": "By final judgment and order dated 11.09.2025, the NCLAT dismissed the appeal, confirming the observations of the NCLT.",
+        "role": "PROCEDURAL_EVENT",
+        "page": 7,
+        "evidence": "By the impugned final judgment and order dated 11.09.2025, the NCLAT has dismissed the appeal, confirming the observations of the NCLT",
+        "confidence": 0.98
+      },
+      {
+        "fact": "The appellant filed Civil Appeal No. 11950 of 2025 before the Supreme Court of India.",
+        "role": "PROCEDURAL_EVENT",
+        "page": 1,
+        "evidence": "CIVIL APPEAL NO. 11950 OF 2025",
+        "confidence": 0.99
+      }
+    ],
+    "party_allegations": [
+      {
+        "fact": "The appellant contended before the NCLAT that liabilities had been transferred to another company due to demerger and amalgamation, and that a renewed sanction letter dated 18.11.2017 did not mention the guarantee, deeming it relinquished.",
+        "role": "PARTY_ALLEGATION",
+        "page": 7,
+        "evidence": "the appellant contended that the NCLT erred by failing to consider that its liabilities had been transferred to another company due to a scheme of demerger and a subsequent amalgamation. The appellant further contended that a renewed sanction letter dated 18.11.2017 did not mention the guarantee and therefore, the guarantee was deemed to have been relinquished.",
+        "confidence": 0.97
+      },
+      {
+        "fact": "Respondent No. 1 filed an affidavit stating that the alleged judgments relied upon by the NCLT were not cited by its counsel at the bar and were obtained through the adjudicating authority's own research.",
+        "role": "PARTY_ALLEGATION",
+        "page": 10,
+        "evidence": "Respondent No. 1 has filed an affidavit indicating that the alleged judgments relied on by NCLT were not cited by its counsel at the bar. The affidavit also indicates that the so-called precedents relied on by the adjudicating authority were obtained through its own research.",
+        "confidence": 0.97
+      }
+    ],
+    "party_arguments": [
+      {
+        "fact": "Senior counsel for the appellant argued that the citations and judgments relied upon by the NCLT and referred to by the NCLAT are fake, non-existent, and AI-generated, with excerpted paragraphs not traceable in law reports.",
+        "role": "PARTY_ARGUMENT",
+        "page": 8,
+        "evidence": "Ms. Madhavi Divan, learned senior counsel appearing for the appellant, at the outset, pointed out that the citations/judgments relied upon by the NCLT to arrive at the impugned findings, as referred by the appellate tribunal in paragraph 12 of its opinion, are fake and non-existent, probably AI-generated.",
+        "confidence": 0.97
+      },
+      {
+        "fact": "Learned counsels appearing for the respondents countered the appellant's submissions on the merits of the matter.",
+        "role": "PARTY_ARGUMENT",
+        "page": 9,
+        "evidence": "The learned counsels appearing for the respondents have countered the submissions on merits.",
+        "confidence": 0.95
+      }
+    ],
+    "court_findings": [
+      {
+        "fact": "The Supreme Court found on independent examination that the judicial precedents relied upon by the NCLT in paragraphs 44, 45, 47, 49, 51, and 53 of its judgment contain non-existent citations or genuine citations with fabricated, AI-generated paragraphs.",
+        "role": "COURT_FINDING",
+        "page": 9,
+        "evidence": "An independent examination undertaken by us reveals the following about the judgments relied upon by the adjudicating authority: State Bank of India v. M/s Shree Ram Urban Infrastructure Ltd., 2020 SCC OnLine SC 341 (cited in para 44 of NCLT judgment) – Wrong citation of an existing reported judgment and a non-existent paragraph, Everest Kento Cylinders Ltd. v. Union of India (2015) 2 SCC 1 (cited in para 45 of NCLT judgment) – Correct citation but non-existent paragraph, ICICI Bank Ltd. v. Urban Infrastructure Real Estate Ltd., (2019) 16 SCC 528 (cited in para 47 of NCLT judgment) – Non-existent citation, V.S. Dempo & Co. Ltd. v. Reliance Communications Ltd., (2021) 10 SCC 176 (cited in para 49 of NCLT judgment) – Non-existent citation, Canara Bank v. N.G. Subbaraya Setty & Anr., (2018) 16 SCC 228 (cited in para 51 of NCLT judgment) – Correct citation but non-existent paragraph and Sarbjit Singh v. Union Bank of India, (2022) 7 SCC 464 (cited in para 53 of NCLT judgment) – Non-existent citation.",
+        "confidence": 0.99
+      },
+      {
+        "fact": "The Supreme Court held that a decision based on fake and hallucinated AI-generated material is no decision in the eyes of the law, amounts to subversion of the rule of law, and must be set aside even if an iota of such material enters the decision-making process.",
+        "role": "COURT_FINDING",
+        "page": 5,
+        "evidence": "We have no hesitation in declaring that such a decision is no decision in the eyes of the law, irrespective of whether such material had a direct or indirect bearing on the decision-making. Such decisions are to be set aside even if an iota of fake or hallucinated material enters the decision-making process, as it would violate the sanctity of adjudication.",
+        "confidence": 0.98
+      },
+      {
+        "fact": "The Supreme Court found that the fake and non-existent judgments completely escaped scrutiny by the first statutory appellate tribunal (NCLAT).",
+        "role": "COURT_FINDING",
+        "page": 10,
+        "evidence": "The fake, non-existent judgments escaped scrutiny by the first statutory appellate tribunal.",
+        "confidence": 0.98
+      }
+    ],
+    "court_orders": [
+      {
+        "fact": "The judgments and orders passed by the NCLT dated 28.08.2024 and NCLAT dated 11.09.2025 were set aside.",
+        "role": "COURT_ORDER",
+        "page": 11,
+        "evidence": "For the reasons stated above, the judgment and orders passed by the NCLT and NCLAT dated 28.08.2024 and 11.09.2025 are hereby set aside.",
+        "confidence": 0.99
+      },
+      {
+        "fact": "The Section 7 application, RCP (IB) 6/MB/2023, was restored to its original number.",
+        "role": "COURT_ORDER",
+        "page": 11,
+        "evidence": "In view of the above, the Section 7 application, RCP (IB) 6/MB/2023, is restored to its original number.",
+        "confidence": 0.99
+      },
+      {
+        "fact": "The NCLT was directed to dispose of the Section 7 application expeditiously, preferably within two weeks, on its own merits without the Supreme Court expressing any opinion thereon.",
+        "role": "COURT_ORDER",
+        "page": 11,
+        "evidence": "The NCLT shall proceed with the said application and pass orders in accordance with law. We make it clear that we have not expressed any opinion on the merits of the case... it is directed that the adjudicating authority shall take up and dispose of the said application expeditiously, preferably within a period of two weeks from today.",
+        "confidence": 0.99
+      },
+      {
+        "fact": "The parties were directed to maintain status quo as of the date of the judgment pending disposal of the Section 7 application.",
+        "role": "COURT_ORDER",
+        "page": 11,
+        "evidence": "Pending disposal of the said Section 7 application, the parties are directed to maintain the status quo as of today.",
+        "confidence": 0.99
+      },
+      {
+        "fact": "The Bar Council of India was directed to constitute a committee to deliberate on the issue of members of the bar submitting fake and hallucinated AI material and prescribe guiding principles and disciplinary actions.",
+        "role": "COURT_ORDER",
+        "page": 6,
+        "evidence": "we direct the Bar Council of India, being the apex statutory body, to constitute a committee and deliberate on this issue of members of the bar submitting such fake and hallucinated material before the Court as if they are precedents of law.",
+        "confidence": 0.98
+      }
+    ]
+  },
+  "document_content": {
+    "legal_propositions": [
+      {
+        "fact": "Citing AI-generated precedents without verification constitutes misconduct by an advocate, and relying on such material constitutes a serious lapse by a judge.",
+        "role": "LEGAL_PROPOSITION",
+        "page": 5,
+        "evidence": "It is a misconduct on the part of an advocate to cite such judgments without verification. Equally, it is a serious lapse if a judge relies on such a fake or hallucinated AI-generated material as precedents in support of the determination.",
+        "confidence": 0.98
+      },
+      {
+        "fact": "Courts must adopt a zero-tolerance policy towards producing, citing, or relying on AI-generated precedents without verification.",
+        "role": "LEGAL_PROPOSITION",
+        "page": 5,
+        "evidence": "It is necessary for Courts to adopt a zero-tolerance mode for producing, citing or using AI-generated precedents without verification.",
+        "confidence": 0.97
+      }
+    ],
+    "referenced_cases": [
+      {
+        "fact": "The NCLAT cited the case of State Bank of India Vs. M/s Shree Ram Urban Infrastructure Ltd., 2020 SCC OnLine SC 341 as an Apex Court precedent regarding corporate guarantee survival.",
+        "role": "REFERENCED_CASE",
+        "page": 8,
+        "evidence": "referring to the decisions of the Hon'ble Apex Court in the case of State Bank of India Vs. M/s Shree Ram Urban Infrastructure Ltd., 2020 SCC OnLine SC 341",
+        "confidence": 0.95
+      },
+      {
+        "fact": "The Supreme Court noted that the correct cause title for 2020 SCC OnLine SC 341 is M. Subramaniam v. S. Janaki, (2020) 16 SCC 728.",
+        "role": "REFERENCED_CASE",
+        "page": 9,
+        "evidence": "Correct cause title for the cited judgment is M. Subramaniam v. S. Janaki, (2020) 16 SCC 728; 2020 SCC OnLine SC 341.",
+        "confidence": 0.98
+      },
+      {
+        "fact": "Anthony Malcolm Cork & Anor v. Mark Smith, [2026] EWHC 1199 (Ch) was referenced regarding a UK High Court instance where a law firm used AI-generated fabricated quotes.",
+        "role": "REFERENCED_CASE",
+        "page": 10,
+        "evidence": "Anthony Malcolm Cork & Anor v. Mark Smith, [2026] EWHC 1199 (Ch), the reckless oversight wasted judicial resources, prompted a public admonishment from the bench",
+        "confidence": 0.96
+      }
+    ],
+    "external_examples": [
+      {
+        "fact": "In 2025, the UK Solicitors Regulation Authority approved Garfield Law Limited (GLA), the first purely AI-driven law firm, which later secured a county court decree for recovery of unpaid fees.",
+        "role": "EXTERNAL_EXAMPLE",
+        "page": 2,
+        "evidence": "The Solicitors Regulation Authority (SRA), a body created under the United Kingdom Legal Services Act 2007, approved in 2025, the first purely Artificial Intelligence-driven law firm named Garfield Law Limited (GLA), to provide regulated legal services.",
+        "confidence": 0.96
+      },
+      {
+        "fact": "UK law firm Pinsent Masons LLP used an internal AI program that generated a fabricated statutory quote in a block transfer application, leading to court admonishment and SRA self-referral.",
+        "role": "EXTERNAL_EXAMPLE",
+        "page": 10,
+        "evidence": "A prominent law firm of UK Pinsent Masons LLP utilised an internal artificial intelligence program carelessly during a block transfer application. In that instance, a junior associate accepted a completely fabricated statutory quote generated by the software without verifying it",
+        "confidence": 0.96
+      }
+    ],
+    "general_observations": [
+      {
+        "fact": "Artificial Intelligence has acquired capabilities to assist or substitute human effort, but uncontrolled reliance on it risks undermining human thinking, discernment, and judicial decision-making.",
+        "role": "GENERAL_OBSERVATION",
+        "page": 1,
+        "evidence": "Artificial Intelligence has acquired the capability to better, if not fully substitute, human effort, both routine and intellectual... what is significant for our decision-making is our resolve to adopt AI technology in aid of adjudication, while at the same time asserting and declaring total and absolute control over adjudication, with a human in the loop at every stage.",
+        "confidence": 0.97
+      },
+      {
+        "fact": "AI hallucinations generating fake legal precedents are compared to the release of methyl isocyanate in the province of law and justice, contaminating judicial determination.",
+        "role": "GENERAL_OBSERVATION",
+        "page": 5,
+        "evidence": "the production of fake, non-existent, and hallucinated material and its utilisation as precedents in law, is like the release of methyl isocyanate in the province of law and justice: invisible, insidious, and catastrophic by the time anyone notices.",
+        "confidence": 0.97
+      }
+    ],
+    "publications": [
+      {
+        "fact": "Article titled 'Artificial intelligence-based law firm wins in court' by Karl Flinders published in Computer Weekly in 2026.",
+        "role": "PUBLICATION",
+        "page": 2,
+        "evidence": "Karl Flinders, ‘Artificial intelligence-based law firm wins in court’ (Computer Weekly, 2026) <https://www.computerweekly.com/news/366644941/Artificial-intelligence-based-law-firm-wins-in-court>.",
+        "confidence": 0.95
+      },
+      {
+        "fact": "News item titled 'Pinsents’ botched AI use sparks dependency alarm' published in the Law Society Gazette in 2026.",
+        "role": "PUBLICATION",
+        "page": 10,
+        "evidence": "‘Pinsents’ botched AI use sparks dependency alarm’ (Law Society Gazette, 2026) <https://www.lawsociety.ie/gazette/top-stories/2026/may/pinsents-botched-ai-use-sparks-dependency-alarm/>.",
+        "confidence": 0.95
+      }
+    ],
+    "background_information": [
+      {
+        "fact": "The Solicitors Regulation Authority (SRA) operates as an independent regulator under the United Kingdom Legal Services Act 2007 to discourage professional misconduct.",
+        "role": "BACKGROUND",
+        "page": 2,
+        "evidence": "The Solicitors Regulation Authority (SRA), a body created under the United Kingdom Legal Services Act 2007... SRA acts as the independent regulator of solicitors for creating an effective deterrent and discouraging professional misconduct by solicitors.",
+        "confidence": 0.96
+      }
+    ]
+  },
+  "bns_relevant_facts": [],
+  "_metadata": {
+    "model": "gemini-3.8-flash",
+    "filename": "judgement.pdf",
+    "upload_time_seconds": 4.93,
+    "analysis_time_seconds": 37.75,
+    "total_time_seconds": 42.67
+  }
+}

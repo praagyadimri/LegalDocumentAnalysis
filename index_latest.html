@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LegalDocumentAnalysis</title>
+    <link rel="stylesheet" href="style_latest.css">
+</head>
+<body>
+    <div id="signinPage">
+        <div class="page-header">
+            <h1>Legal Document Analysis</h1>
+            <h>Describe your case and get a clear legal analysis with relevant legal provisions.</h>
+        </div>
+        <div class="account">
+            <div class="project-description">
+                <h2>Legal Document Analysis</h2>
+                <p>Legal Document Analysis is an AI-powered platform designed to help users understand legal documents and obtain clear, structured insights from complex legal content.</p>
+                <p>Upload your legal documents or ask legal questions to receive relevant information, important clauses, potential risks, and simplified analysis.</p>
+            </div>
+            <div class="form-box">
+                <h2>Sign In</h2>
+                <p>Enter your details to continue.</p>
+                <form id="signinForm">
+                    <label for="signinEmail">Email Address</label>
+            <input type="email" id="signinEmail" placeholder="user@gmail.com"
+            pattern="[A-Za-z0-9]+([._][A-Za-z0-9]+)*@gmail\.com"
+            required>
+
+            <label for="signinPassword">Password</label>
+            <input type="password" id="signinPassword" placeholder="Enter your password"
+            pattern="[A-Za-z0-9@_]+"
+            required>
+
+            <button type="submit">Sign In</button>
+            <p id="signinMessage"></p>
+                </form>
+                <p>
+                    New to the website ?
+                    <a href="#" id="showSignup">Create an Account</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="signupPage" style="display:none;">
+        <div class="page-header">
+            <h1>Legal Document Analysis</h1>
+            <h>Create an account to securely access personalized legal analysis and manage your cases.</h>
+        </div>
+
+        <div class="account">
+            <div class="project-description">
+                <h2>Legal Document Analysis</h2>
+                <p>Legal Document Analysis is an AI-powered platform designed to help users understand legal documents and obtain clear, structured insights from complex legal content.</p>
+                <p>Upload your legal documents or ask legal questions to receive relevant information, important clauses, potential risks, and simplified analysis.</p>
+            </div>
+            <div class="form-box">
+                <h2>Create an Account</h2>
+                <p>Create your account to access the platform.</p>
+                <form id="signupForm">
+                    <input type="text" id="signupName"
+            placeholder="Enter your full name"
+            pattern="[A-Za-z0-9_]{3,20}"
+            required>
+
+            <input type="email" id="signupEmail"
+            placeholder="user@gmail.com"
+            pattern="[A-Za-z0-9]+([._][A-Za-z0-9]+)*@gmail\.com"
+            required>
+
+            <input type="password" id="signupPassword"
+            placeholder="Create a password"
+            pattern="[A-Za-z0-9@_]+"
+            required>
+
+            <input type="password" id="confirmPassword"
+            placeholder="Confirm your password"
+            pattern="[A-Za-z0-9@_]+"
+            required>
+
+            <button type="submit">Create Account</button>
+            <p id="signupMessage"></p>
+                </form>
+                <p>
+                    Already have an account?
+                    <a href="#" id="showSignin">Sign In</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div id="dashboardPage" style="display:none;">
+        <div class="dashboard-header">
+            <h1>Legal Document Analysis</h1>
+            <div>
+                <span id="welcomeUser">Welcome</span>
+                <button id="logoutBtn">Logout</button>
+            </div>
+        </div>
+        <div class="dashboard-content">
+            <div class="chat-container">
+                <h2>Ask a Legal Question</h2>
+                <p>Type your question below and the AI will provide an answer.</p>
+                <div id="chatBox"></div>
+                <div class="question-box">
+                    <textarea id="questionInput" placeholder="Type your legal question here..." rows="4"></textarea>
+                    <button id="askBtn">Ask</button>
+                </div>
+                <p id="loadingMessage" style="display:none;">Analysing...</p>
+            </div>
+            <div class="document-container">
+                <h2>Analyze a Legal Document</h2>
+                <p>Upload a legal PDF document to receive a structured AI-powered legal analysis.</p>
+                <input type="file" id="documentInput" accept=".pdf,application/pdf" hidden>
+                <button id="chooseDocumentBtn" type="button">Upload Document</button>
+                <p id="documentName">No file selected.</p>
+                <button id="analyzeDocumentBtn" type="button" disabled>Analyze Document</button>
+                <p id="documentLoading" style="display:none;">Analyzing document...</p>
+                <div id="documentResult" class="result-box" style="display:none;"></div>
+            </div>
+        </div>
+    </div> -->
+    <div id="dashboardPage" style="display:none;">
+        <div class="dashboard-header">
+            <h1>Legal Document Analysis</h1>
+            <div class="header-actions">
+                <span id="welcomeUser">Welcome</span>
+                <button id="logoutBtn" type="button">Logout</button>
+            </div>
+        </div>
+
+        <div class="app-layout">
+            <aside class="history-sidebar">
+                <button id="newChatBtn" type="button" class="new-chat-btn">+ New Chat</button>
+                <h3>Conversation History</h3>
+                <p class="history-note">Your saved conversations appear here.</p>
+                <div id="historyList"></div>
+            </aside>
+
+            <main class="dashboard-content">
+                <div class="chat-container">
+                    <h2 id="chatTitle">New Conversation</h2>
+                    <p>Ask a legal question or upload a legal document for analysis.</p>
+                    <div id="chatBox"></div>
+
+                    <div class="question-box">
+                        <textarea id="questionInput" placeholder="Type your legal question here..." rows="4"></textarea>
+                        <div class="question-buttons">
+                            <button id="askBtn" type="button">Ask</button>
+                            <input type="file" id="documentInput" accept=".pdf,application/pdf" hidden>
+                            <button id="chooseDocumentBtn" type="button">Upload Document</button>
+                        </div>
+                    </div>
+                    <p id="documentName">No document selected.</p>
+                    <p id="loadingMessage" style="display:none;">Analysing...</p>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="script_latest.js"></script>
+</body>
+</html>
